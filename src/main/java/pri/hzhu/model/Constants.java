@@ -11,5 +11,7 @@ public class Constants {
 
     public static final int INT_1 = 1;
 
+    public static final double DOUBLE_0 = 0d;
+
     public static final char CHAR_W = 'w';
 }

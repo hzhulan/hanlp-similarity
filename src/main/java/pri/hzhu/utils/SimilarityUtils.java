@@ -78,10 +78,10 @@ public class SimilarityUtils {
     private static double calSinSimilarity(List<WordFrequent> firstWordFrequentList, List<WordFrequent> secondWordFrequentList) {
 
         try {
-            double vProduct = 0;
-            int sumSquare1 = 0;
-            int sumSquare2 = 0;
-            for (int i = 0; i < firstWordFrequentList.size(); ++i) {
+            double vProduct = Constants.DOUBLE_0;
+            int sumSquare1 = Constants.INT_0;
+            int sumSquare2 = Constants.INT_0;
+            for (int i = Constants.INT_0; i < firstWordFrequentList.size(); ++i) {
                 int firstFrequent = firstWordFrequentList.get(i).getFrequent();
                 int secondFrequent = secondWordFrequentList.get(i).getFrequent();
                 // 向量点积
